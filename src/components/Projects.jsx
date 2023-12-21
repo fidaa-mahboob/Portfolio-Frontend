@@ -1,6 +1,8 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React, {useEffect, useState} from "react";
-import { data } from "../data/data";
+import { data } from "../data/data"; 
+import { BsGithub } from "react-icons/bs";
+import { DiGithubFull } from "react-icons/di";
 
 const Projects = () => {
     const [projects, setProjects] = useState([])
@@ -13,11 +15,11 @@ const Projects = () => {
         setProjectData()
     }, [])
     
-    return <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    return <section id="projects" >
         <div className="container px-5 py-10 mx-auto text-center lg:px-40">
             <div className="flex flex-col w-full mb-20">
                 <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
                   Projects
                 </h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -27,15 +29,28 @@ const Projects = () => {
                 </p>
             </div>
             <div className="flex flex-col items-center">
-                {projects.map((project) => (
-                    <div key={project.name} className="flex flex-row justify-between p-8">
+                {projects.map((project, idx) => (
+                    <div key={project.name} className="flex flex-col justify-between">
                         <img alt="project screenshot"
                             className="inset-0 object-scale-down h-60 w-102 rounded-lg"
                             src={project.image}/>
-                        <div>
-                            <h1 className="sm:text-2xl text-3xl font-medium title-font mb-4 text-white">{project.title}</h1>
-                            <p className="ps-8">{project.description}</p>
-                        </div>
+                        <h1 className="sm:text-2xl text-3xl font-medium title-font mb-4 text-white pt-4">{idx + 1}. {project.title}</h1>
+                        <p  >{project.description}</p>
+                        <div className="flex justify-even justify-center py-6">
+                            <a
+                                href="#contact"
+                                className="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">
+                                <DiGithubFull size={30}/>
+                            </a>
+                            <a
+                                href="#projects"
+                                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              See My Past Work
+                            </a>
+                        </div> 
+                        
+                        
+                    
                     </div>
                 ))}
             </div>

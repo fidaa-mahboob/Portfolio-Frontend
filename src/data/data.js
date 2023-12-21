@@ -20,5 +20,9 @@ export const data = () => {
 };
 
 export const skills_data = () => {
-    return [{ name: "Javascript" }, { name: "ReactJS" }, { name: "NodeJS" }];
+    return [
+        { name: "Javascript", icon: "./Javascript-icon.png" },
+        { name: "ReactJS", icon: "./React-icon.png" },
+        { name: "NodeJS", icon: "./Javascript-icon.png" }
+    ];
 };
