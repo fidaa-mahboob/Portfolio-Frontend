@@ -40,7 +40,7 @@ const Projects = () => {
                             <a
                                 href="#contact"
                                 className="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">
-                                <DiGithubFull size={30}/>
+                                <DiGithubFull size={40}/>
                             </a>
                             <a
                                 href="#projects"
