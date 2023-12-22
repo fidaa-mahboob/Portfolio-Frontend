@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
     return (
         <NextUIProvider>
-            <main className="">
+            <main className="bg-[#F9F5F6]">
                 <Navigation />
                 <About />
                 <Skills />

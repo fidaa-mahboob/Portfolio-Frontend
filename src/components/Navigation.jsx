@@ -53,17 +53,27 @@ const Navigation = () => {
                         </p>
                     </NavbarBrand>
                     <NavbarItem>
-                        <Link className="text-white font-bold" href="#">
+                        <Link
+                            className="text-white font-bold hover:text-orange-700"
+                            href="#"
+                        >
                 About
                         </Link>
                     </NavbarItem>
                     <NavbarItem isActive>
-                        <Link href="#projects" className="text-white font-bold" aria-current="page">
+                        <Link
+                            href="#projects"
+                            className="text-white font-bold hover:text-orange-700"
+                            aria-current="page"
+                        >
                 Projects
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link href="#" className="text-white font-bold">
+                        <Link
+                            href="#"
+                            className="text-white font-bold hover:text-orange-700"
+                        >
                 Contact
                         </Link>
                     </NavbarItem>
