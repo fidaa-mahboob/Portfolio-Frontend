@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
 `
 
 const Footer = () => {
-    return (
+    return (    
         <footer className="bg-[#333] text-white flex justify-center">
             <div className="mt-5 mb-5 text-center">
                 <p>&copy; 2023 Fidaa Mahboob. All Rights Reserved.</p>

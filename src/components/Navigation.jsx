@@ -22,11 +22,12 @@ const Navigation = () => {
     ];
 
     return (
-        <header className="md-container mx-auto">
+        <header className="md-container mx-auto ">
             <Navbar
                 isBordered
                 isMenuOpen={isMenuOpen}
                 onMenuOpenChange={setIsMenuOpen}
+                className="bg-[#FFC47E]"
             >
                 <NavbarContent className="sm:hidden" justify="start">
                     <NavbarMenuToggle
@@ -35,31 +36,34 @@ const Navigation = () => {
                 </NavbarContent>
 
                 <NavbarContent className="sm:hidden pr-3" justify="center">
-                    <NavbarBrand>
-                        <p className="font-bold text-inherit">
+                    <NavbarBrand className="mr-4">
+                        <p className="font-extrabold text-inherit">
                             <strong>Fidaa Mahboob</strong>
                         </p>
                     </NavbarBrand>
                 </NavbarContent>
 
-                <NavbarContent className="hidden sm:flex gap-4" justify="center">
+                <NavbarContent
+                    className="hidden sm:flex gap-4 text-white"
+                    justify="center"
+                >
                     <NavbarBrand>
                         <p className="font-bold text-inherit">
                             <strong>Fidaa Mahboob</strong>
                         </p>
                     </NavbarBrand>
                     <NavbarItem>
-                        <Link color="foreground" href="#">
+                        <Link className="text-white font-bold" href="#">
                 About
                         </Link>
                     </NavbarItem>
                     <NavbarItem isActive>
-                        <Link href="#projects" aria-current="page">
+                        <Link href="#projects" className="text-white font-bold" aria-current="page">
                 Projects
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link color="foreground" href="#">
+                        <Link href="#" className="text-white font-bold">
                 Contact
                         </Link>
                     </NavbarItem>
@@ -73,7 +77,7 @@ const Navigation = () => {
                                 console.log("clicked");
                             }}
                             href="#"
-                            className="focus:outline-none text-white bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-2.5 py-2 dark:focus:ring-yellow-900"
+                            className="focus:outline-none text-white bg-orange-500 hover:bg-orange-600 font-medium rounded-lg text-sm px-2.5 py-2 outline-3"
                         >
                 Download CV
                         </button>

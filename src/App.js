@@ -11,13 +11,13 @@ import Footer from "./components/Footer";
 function App() {
     return (
         <NextUIProvider>
-            <main>
+            <main className="">
                 <Navigation />
                 <About />
                 <Skills />
                 <Projects />
-                <Contact/>
-                <Footer/>
+                <Contact />
+                <Footer />
             </main>
         </NextUIProvider>
     );
