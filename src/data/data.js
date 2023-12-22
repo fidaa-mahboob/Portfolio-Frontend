@@ -16,6 +16,22 @@ export const data = () => {
             image: "./weathersense.png",
             link: "https://reactbootcamp.com",
         },
+        {
+            title: "app 3",
+            subtitle: "MERN Stack",
+            description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            image: "./weathersense.png",
+            link: "https://reactbootcamp.com",
+        },
+        {
+            title: "app 4",
+            subtitle: "MERN Stack",
+            description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+            image: "./weathersense.png",
+            link: "https://reactbootcamp.com",
+        }
     ];
 };
 

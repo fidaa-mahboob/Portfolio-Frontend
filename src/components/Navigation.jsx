@@ -11,9 +11,6 @@ import {
     Button,
 } from "@nextui-org/react";
 
-import styled from "styled-components";
-
-
 const Navigation = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 

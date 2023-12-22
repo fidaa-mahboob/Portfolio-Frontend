@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledTitleText = styled.span`
-  font-family: "Arial", sans-serif;
-  font-size: 30px;
+  font-family: "Georgia", sans-serif;
+  font-size: 35px;
 `;
 
 const StyledDescText = styled.p`
-  font-size: 20px;
+  font-family: "Georgia:, sans-serif;
+  font-size: 30px;
 `;
 
 const About = () => {
