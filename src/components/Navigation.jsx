@@ -27,7 +27,7 @@ const Navigation = () => {
                 isBordered
                 isMenuOpen={isMenuOpen}
                 onMenuOpenChange={setIsMenuOpen}
-                className="bg-[#FFC47E]"
+                className="bg-[#F3B664]"
             >
                 <NavbarContent className="sm:hidden" justify="start">
                     <NavbarMenuToggle
