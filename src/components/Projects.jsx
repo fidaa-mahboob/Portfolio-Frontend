@@ -1,8 +1,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React, {useEffect, useState} from "react";
-import { data } from "../data/data"; 
+import { data }  from "../data/data"; 
 import { BsGithub } from "react-icons/bs";
-import { DiGithubFull } from "react-icons/di";
 import {
     Card,
     CardHeader,
@@ -30,7 +29,7 @@ const Projects = () => {
     return (
         <section id="projects" className="py-4">
             <div className="container px-5 py-10 mx-auto lg:px-40">
-                <div className="flex flex-col text-center ">
+                <div className="flex flex-col text-center mb-6">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />
                     <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-black">
               Projects
@@ -41,7 +40,7 @@ const Projects = () => {
               obcaecati quisquam fuga dolore.
                     </p>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-wrap -m-4 justify-around">
                     {projects.map((project, idx) => (
                         <div key={project.title} className="py-10">
                             <Card className="max-w-[450px]">

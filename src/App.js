@@ -7,7 +7,6 @@ import Navigation from "./components/Navigation";
 import { NextUIProvider } from "@nextui-org/react";
 import Footer from "./components/Footer";
 
-
 function App() {
     return (
         <NextUIProvider>

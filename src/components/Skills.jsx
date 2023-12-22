@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {BadgeCheckIcon, ChipIcon} from "@heroicons/react/solid";
+import {ChipIcon} from "@heroicons/react/solid";
 import { skills_data } from "../data/data";
 
 const Skills = () => {
