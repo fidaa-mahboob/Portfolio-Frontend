@@ -79,21 +79,7 @@ const Navigation = () => {
                     </NavbarItem>
                 </NavbarContent>
 
-                <NavbarContent justify="end">
-                    <NavbarItem>
-                        <button
-                            onClick={(e) => {
-                                e.preventDefault();
-                                console.log("clicked");
-                            }}
-                            href="#"
-                            className="focus:outline-none text-white bg-orange-500 hover:bg-orange-600 font-medium rounded-lg text-sm px-2.5 py-2 outline-3"
-                        >
-                Download CV
-                        </button>
-                    </NavbarItem>
-                </NavbarContent>
-
+               
                 <NavbarMenu>
                     {menuItems.map((item, index) => (
                         <NavbarMenuItem key={`${item}-${index}`}>
