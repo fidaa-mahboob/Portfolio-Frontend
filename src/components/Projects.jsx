@@ -1,16 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React, {useEffect, useState} from "react";
 import { data }  from "../data/data"; 
-import { BsGithub } from "react-icons/bs";
-import {
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    Divider,
-    Link,
-    Image,
-} from "@nextui-org/react";
 
 
 const Projects = () => {
@@ -24,62 +14,51 @@ const Projects = () => {
         setProjectData()
     }, [])
 
-  
-    
     return (
         <section id="projects" className="py-4">
-            <div className="container px-5 py-10 mx-auto lg:px-40">
-                <div className="flex flex-col text-center mb-6">
+            <div className="container px-5 py-10 mx-auto text-center lg:px-40">
+                <div className="flex flex-col w-full mb-20">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-                    <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-black">
-              Projects
+                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
+                        <strong>Projects</strong>
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Explicabo facilis repellat ab cupiditate alias vero aliquid
-              obcaecati quisquam fuga dolore.
+                        {"Some of the projects that I'm currently working on."}
                     </p>
                 </div>
-                <div className="flex flex-wrap -m-4 justify-around">
-                    {projects.map((project, idx) => (
-                        <div key={project.title} className="py-10">
-                            <Card className="max-w-[450px]">
-                                <CardHeader>
-                                    <div className="flex flex-col">
-                                        <p className="text-md">{project.title}</p>
-                                        <p className="text-small text-default-500">
-                                            {project.subtitle}
-                                        </p>
-                                    </div>
-                                </CardHeader>
-                                <Divider />
-                                <CardBody className="flex flex-col items-between">
-                                    <Image
-                                        alt="project screenshot"
+                <div className="flex flex-wrap -m-4">
+                    {projects.map((project, indx) => (
+                        <>
+                            <h2 key={project.image}  className="lg:hidden sm:4xl pl-10">
+                                <strong>
+                                    {indx + 1}.&nbsp;{project.title}
+                                </strong>
+                            </h2>
+                            <a
+                                href={project.link}
+                                key={project.name}
+                                className="sm:w-1/2 w-100 p-4"
+                            >
+                                <div className="flex relative">
+                                    <img
+                                        alt="gallery"
+                                        className="absolute inset-0 w-full h-full object-cover object-center"
                                         src={project.image}
-                                        className="object-cover rounded-xl"
-                                        width={500}
-                                    ></Image>
-                                    <div>
-                                        <p className="pt-3">
-                                            {project.description} <Link>Read More</Link>
+                                    />
+                                    <div className="px-8 py-10 relative z-10 w-full border-4 border-white bg-gray-900 opacity-0 hover:opacity-100">
+                                        <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                                            <strong>{project.subtitle}</strong>
+                                        </h2>
+                                        <h1 className="title-font text-lg font-medium text-white mb-3">
+                                            <strong>{project.title}</strong>
+                                        </h1>
+                                        <p className="leading-relaxed text-white">
+                                            {project.description}
                                         </p>
                                     </div>
-                                </CardBody>
-                                <Divider />
-                                <CardFooter className="flex flex-row justify-center">
-                                    <BsGithub size={25} />
-                                    <Link
-                                        isExternal
-                                        showAnchorIcon
-                                        href={project.link}
-                                        className="ps-2"
-                                    >
-                      Visit source code on GitHub.
-                                    </Link>
-                                </CardFooter>
-                            </Card>
-                        </div>
+                                </div>
+                            </a>
+                        </>
                     ))}
                 </div>
             </div>

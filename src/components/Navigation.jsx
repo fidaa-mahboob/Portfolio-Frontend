@@ -37,21 +37,17 @@ const Navigation = () => {
 
                 <NavbarContent className="sm:hidden pr-3" justify="center">
                     <NavbarBrand className="mr-4">
-                        <p className="font-extrabold text-inherit">
+                        <p className="font-extrabold text-inherit text-black">
                             <strong>Fidaa Mahboob</strong>
                         </p>
                     </NavbarBrand>
                 </NavbarContent>
 
                 <NavbarContent
-                    className="hidden sm:flex gap-4 text-white"
+                    className="hidden sm:flex gap-4 text-black"
                     justify="center"
                 >
-                    <NavbarBrand>
-                        <p className="font-bold text-inherit">
-                            <strong>Fidaa Mahboob</strong>
-                        </p>
-                    </NavbarBrand>
+                    
                     <NavbarItem>
                         <Link
                             className="text-white font-bold hover:text-orange-700"
@@ -71,7 +67,7 @@ const Navigation = () => {
                     </NavbarItem>
                     <NavbarItem>
                         <Link
-                            href="#"
+                            href="#contact"
                             className="text-white font-bold hover:text-orange-700"
                         >
                 Contact
