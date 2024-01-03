@@ -23,13 +23,11 @@ const Skills = () => {
                     <h1 className="sm:text-4xl text-3xl font-bold title-font text-black mb-4">
             Skills &amp; Technologies
                     </h1>
-                    <StyledText>
-                        {" "}
-                        <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                    {" "}
+                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               These are the skills and technologies that I have used in my
               software projects.
-                        </p>
-                    </StyledText>
+                    </p>
                 </div>
                 <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2-mx-2">
                     {skills &&

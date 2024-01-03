@@ -23,18 +23,20 @@ const Projects = () => {
                         <strong>Projects</strong>
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              All the projects I have built all the way to my present project.
+                        {"Some of the projects that I'm currently working on."}
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project, indx) => (
                         <>
-                            <h2 className="lg:hidden sm:4xl pl-10">
-                                <strong>{indx+1}.&nbsp;{project.title}</strong>
+                            <h2 key={project.image}  className="lg:hidden sm:4xl pl-10">
+                                <strong>
+                                    {indx + 1}.&nbsp;{project.title}
+                                </strong>
                             </h2>
                             <a
                                 href={project.link}
-                                key={project.image}
+                                key={project.name}
                                 className="sm:w-1/2 w-100 p-4"
                             >
                                 <div className="flex relative">
