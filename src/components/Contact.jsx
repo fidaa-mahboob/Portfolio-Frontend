@@ -32,8 +32,7 @@ const Contactnew = () => {
                     <div>
                         <h1 className="text-3xl font-extrabold">Get in touch</h1>
                         <p className="text-sm text-gray-400 mt-3">
-                Have some big idea or brand to develop and need help? Then reach
-                out wed love to hear about your project and provide help.
+                If you would like to have chat please feel free to message me. I look forward to hearing from you. 
                         </p>
                         <div className="mt-12">
                             <h2 className="text-lg font-extrabold">Email</h2>
