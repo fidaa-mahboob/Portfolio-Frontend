@@ -71,7 +71,7 @@ const Navigation = () => {
                     </NavbarItem>
                     <NavbarItem>
                         <Link
-                            href="#"
+                            href="#contact"
                             className="text-white font-bold hover:text-orange-700"
                         >
                 Contact
