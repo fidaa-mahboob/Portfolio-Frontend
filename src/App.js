@@ -3,16 +3,14 @@ import About from "./components/About";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
-import Navigation from "./components/Navigation";
 import { NextUIProvider } from "@nextui-org/react";
 import Footer from "./components/Footer";
-import Blog from "./components/Blog";
 
 function App() {
     return (
         <NextUIProvider>
             <main className="bg-[#F9F5F6]">
-                <Navigation />
+                {/* <Navigation /> */}
                 <About />
                 <Skills />
                 <Projects />

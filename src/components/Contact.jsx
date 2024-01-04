@@ -33,7 +33,8 @@ const Contactnew = () => {
                     <div>
                         <h1 className="text-3xl font-extrabold">Get in touch</h1>
                         <p className="text-sm text-gray-400 mt-3">
-                If you would like to have chat please feel free to message me. I look forward to hearing from you. 
+                If you would like to have chat please feel free to message me. I
+                look forward to hearing from you.
                         </p>
                         <div className="mt-12">
                             <h2 className="text-lg font-extrabold">Email</h2>
@@ -63,7 +64,7 @@ const Contactnew = () => {
                             </ul>
                         </div>
                     </div>
-                    <form className="ml-auo space-y-4" netlify>
+                    <form className="ml-auo space-y-4" method="POST" data-netlify="true">
                         <input
                             type="text"
                             placeholder="Name"

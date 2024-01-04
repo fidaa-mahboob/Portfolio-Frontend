@@ -16,7 +16,7 @@ const Skills = () => {
     }, []);
 
     return (
-        <section id="skills" className="py-4">
+        <section id="skills">
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
                     <ChipIcon className="w-10 inline-block mb-4" />

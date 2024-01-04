@@ -15,7 +15,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <section id="projects" className="py-4">
+        <section id="projects">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />
