@@ -36,7 +36,7 @@ const Navigation = () => {
                 </NavbarContent>
 
                 <NavbarContent className="sm:hidden pr-3" justify="center">
-                    <NavbarBrand className="mr-4">
+                    <NavbarBrand className="mr-12">
                         <p className="font-extrabold text-inherit text-black">
                             <strong>Fidaa Mahboob</strong>
                         </p>
