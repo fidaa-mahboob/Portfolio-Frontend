@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { useRef } from 'react'
 import { IoMailOutline } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
@@ -62,7 +63,7 @@ const Contactnew = () => {
                             </ul>
                         </div>
                     </div>
-                    <form className="ml-auo space-y-4">
+                    <form className="ml-auo space-y-4" netlify>
                         <input
                             type="text"
                             placeholder="Name"
