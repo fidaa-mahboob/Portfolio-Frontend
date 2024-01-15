@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import rough from "roughjs";
 
 const StyledTitleText = styled.header`
   font-family: "Georgia", sans-serif;
@@ -53,18 +52,25 @@ const About = () => {
                     </p>
 
                     <p className="pb-4 text-lg">
-              Get in touch 👉🏻 <u className="underline decoration-red-500">fidaamahboob@gmail.com</u>
+              Get in touch 👉🏻{" "}
+                        <u className="underline decoration-red-500">
+                fidaamahboob@gmail.com
+                        </u>
                     </p>
 
                     <div className="flex justify-between">
                         <a
-                            href="#contact"
+                            href="https://github.com/fidaa-mahboob"
+                            target="_blank"
+                            rel="noreferrer"
                             className="inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg hover:shadow-lg"
                         >
                 Github
                         </a>
                         <a
-                            href="#projects"
+                            href="https://www.linkedin.com/in/fidaa-mahboob/"
+                            target="_blank"
+                            rel="noreferrer"
                             className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg hover:shadow-lg"
                         >
                 LinkedIn

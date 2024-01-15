@@ -2,9 +2,9 @@ import "./App.css";
 import About from "./components/About";
 import Projects from "./components/Projects.jsx";
 import Skills from "./components/Skills.jsx";
-import Contact from "./components/Contact.jsx";
 import { NextUIProvider } from "@nextui-org/react";
 import Footer from "./components/Footer";
+import ContactSimple from "./components/ContactSimple";
 
 function App() {
     return (
@@ -14,7 +14,7 @@ function App() {
                 <About />
                 <Skills />
                 <Projects />
-                <Contact />
+                <ContactSimple />
                 <Footer />
             </main>
         </NextUIProvider>
