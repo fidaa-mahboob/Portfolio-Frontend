@@ -39,7 +39,7 @@ export const skills_data = () => {
         { name: "Github Actions CI/CD", icon: "./github.png" },
         { name: "Docker", icon: "./docker.png" },
         { name: "MySQL", icon: "./mysql.png" },
-        { name: "Python", icon: "./mysql.png" },
+        { name: "Python", icon: "./python.png" },
         { name: "GraphQL", icon: "./mysql.png" },
     ];
 };
