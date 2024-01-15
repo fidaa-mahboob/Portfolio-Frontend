@@ -4,8 +4,8 @@ export const data = () => {
             title: "Financial Record API MVP",
             subtitle: "Java / Springboot / AWS / Terraform",
             description:
-        "This is an end to end project that I am currently building for a client. In this project, I am building a Spring Boot REST API that will store complex financial data in a backend DynamoDB database in AWS. Click to find out more.",
-            image: "./weathersense.png",
+        "This is an end to end project that I am currently building for a local business. In this project, I am building a Spring Boot REST API that will store complex financial data in a backend DynamoDB database in AWS. Click to find out more.",
+            image: "./aws.png",
             link: "https://github.com/fidaa-mahboob/Financial-Record-API-MVP",
         },
         {
@@ -40,6 +40,6 @@ export const skills_data = () => {
         { name: "Docker", icon: "./docker.png" },
         { name: "MySQL", icon: "./mysql.png" },
         { name: "Python", icon: "./python.png" },
-        { name: "GraphQL", icon: "./mysql.png" },
+        { name: "GraphQL", icon: "./graphql-logo.png" },
     ];
 };
