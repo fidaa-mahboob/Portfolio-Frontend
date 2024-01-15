@@ -23,7 +23,7 @@ const Projects = () => {
                         <strong>Projects</strong>
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        {"Some of the projects that I'm currently working on."}
+                        {"Some of the projects that I'm currently working on. Hover over to find out more!"}
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
