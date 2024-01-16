@@ -10,7 +10,6 @@ function App() {
     return (
         <NextUIProvider>
             <main className="bg-[#F9F5F6]">
-                {/* <Navigation /> */}
                 <About />
                 <Skills />
                 <Projects />

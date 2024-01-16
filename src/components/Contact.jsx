@@ -4,8 +4,6 @@ import { IoMailOutline } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contactnew = () => {
-    
-
     return (
         <section id="contact">
             <div className="my-6">
@@ -33,9 +31,9 @@ const Contactnew = () => {
                                 </li>
                             </ul>
                         </div>
-                       
                     </div>
                     <form action="" className="ml-auo space-y-4" method="POST" data-netlify="true">
+                        <input type="hidden" name="contact v1" value="contact"/>
                         <input
                             type="text"
                             placeholder="Name"
