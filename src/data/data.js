@@ -1,10 +1,10 @@
 export const data = () => {
     return [
         {
-            title: "Financial Record API MVP",
+            title: "Financial Record RESTful API",
             subtitle: "Java / Springboot / AWS / Terraform",
             description:
-        "This is an end to end project that I am currently building for a local business. In this project, I am building a Spring Boot REST API that will store complex financial data in a backend DynamoDB database in AWS. Click to find out more.",
+        "This backend RESTful API I'm currently building is for personal use and learning purposes. In this project, I am building a Spring Boot REST API that will store complex financial data in a backend DynamoDB database in AWS. Click to find out more.",
             image: "./aws.png",
             link: "https://github.com/fidaa-mahboob/Financial-Record-API-MVP",
         },

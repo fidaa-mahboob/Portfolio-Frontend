@@ -4,20 +4,18 @@ import { IoMailOutline } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contactnew = () => {
-    
-
     return (
         <section id="contact">
             <div className="my-6">
                 <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl   text-[#333] font-[sans-serif]">
                     <div>
-                        <h1 className="text-3xl font-extrabold">Get in touch</h1>
-                        <p className="text-sm text-gray-400 mt-3">
+                        <h1 className="text-4xl font-extrabold">Get in touch</h1>
+                        <p className="text-md text-black-400 mt-3">
               If you would like to have chat please feel free to message me. I
               look forward to hearing from you.
                         </p>
                         <div className="mt-12">
-                            <h2 className="text-lg font-extrabold">Email</h2>
+                            <h2 className="text-xl font-extrabold">Email</h2>
                             <ul className="mt-3">
                                 <li className="flex items-center">
                                     <div className="bg-yellow-200 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
@@ -27,15 +25,15 @@ const Contactnew = () => {
                                         href="javascript:void(0)"
                                         className="text-orange-600 text-sm ml-3"
                                     >
-                                        <small className="block">Mail</small>
-                                        <strong>fidaamahboob@gmail.com</strong>
+                                        <small className="block text-sm">Mail</small>
+                                        <strong className="text-sm">fidaamahboob@gmail.com</strong>
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                       
                     </div>
                     <form action="" className="ml-auo space-y-4" method="POST" data-netlify="true">
+                        <input type="hidden" name="contact v1" value="contact"/>
                         <input
                             type="text"
                             placeholder="Name"

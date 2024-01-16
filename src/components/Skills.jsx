@@ -24,7 +24,7 @@ const Skills = () => {
                Skills 
                     </h1>
                     {" "}
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                    <p className="text-base text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               These are the technologies that I have used in personal software projects and commercial client projects.
                     </p>
                 </div>
@@ -32,7 +32,7 @@ const Skills = () => {
                     {skills &&
             skills.map((skill) => (
                 <div key={skill.name} className="p-2 sm:w-1/2 w-full">
-                    <div className="bg-gray-800 rounded flex p-4 h-full items-center justify-center">
+                    <div className="    bg-gray-800 rounded flex p-4 h-full items-center justify-center">
                         <img
                             src={skill.icon}
                             className="w-6 h-6 flex-shrink-0 mr-4"

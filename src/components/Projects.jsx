@@ -22,7 +22,7 @@ const Projects = () => {
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
                         <strong>Projects</strong>
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-lg text-base">
                         {"Some of the projects that I'm currently working on. Hover over to find out more!"}
                     </p>
                 </div>
