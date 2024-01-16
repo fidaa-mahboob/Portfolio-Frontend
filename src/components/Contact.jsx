@@ -32,8 +32,8 @@ const Contactnew = () => {
                             </ul>
                         </div>
                     </div>
-                    <form action="" className="ml-auo space-y-4" method="POST" data-netlify="true">
-                        <input type="hidden" name="contact v1" value="contact"/>
+                    <form name="contact" className="ml-auo space-y-4" method="POST" data-netlify="true">
+                        <input type="hidden" name="contact" value="contact"/>
                         <input
                             type="text"
                             placeholder="Name"
