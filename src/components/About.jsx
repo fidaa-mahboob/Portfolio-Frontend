@@ -63,7 +63,7 @@ const About = () => {
                             href="https://github.com/fidaa-mahboob"
                             target="_blank"
                             rel="noreferrer"
-                            className="inline-flex text-white bg-orange-500 border-0 mt-2 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg hover:shadow-lg"
+                            className="inline-flex text-white font-semibold bg-orange-500 border-0 mt-2 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg hover:shadow-lg"
                         >
                 Github
                         </a>
@@ -71,7 +71,7 @@ const About = () => {
                             href="https://www.linkedin.com/in/fidaa-mahboob/"
                             target="_blank"
                             rel="noreferrer"
-                            className="ml-6 inline-flex text-gray-400 bg-gray-800 border-0 mt-2 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg hover:shadow-lg"
+                            className="ml-6 inline-flex text-gray-400 bg-gray-800 border-0 mt-2 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg font-semibold hover:shadow-lg"
                         >
                 LinkedIn
                         </a>
