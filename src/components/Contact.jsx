@@ -36,24 +36,31 @@ const Contactnew = () => {
                         <input type="hidden" name="form-name" value="contact"/>
                         <input
                             type="text"
+                            id="name"
+                            name="name"
                             placeholder="Name"
                             className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
                         />
                         <input
                             type="email"
+                            id="email"
+                            name="email"
                             placeholder="Email"
                             className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
                         />
                         <input
                             type="text"
+                            id="subject"
+                            name="subject"
                             placeholder="Subject"
                             className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
                         />
                         <textarea
                             placeholder="Message"
                             rows="6"
+                            id="message"
+                            name="message"
                             className="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"
-                            name="comment"
                             required="required"
                         ></textarea>
                         <button
