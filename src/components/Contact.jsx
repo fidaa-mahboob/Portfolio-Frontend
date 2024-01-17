@@ -1,9 +1,15 @@
 /* eslint-disable react/no-unknown-property */
-import React from "react";
+import React, { useState } from "react";
 import { IoMailOutline } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 
 const Contactnew = () => {
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [subject, setSubject] = useState("")
+    const [message, setMessage] = useState("") 
+
+
     return (
         <section id="contact">
             <div className="my-6">
