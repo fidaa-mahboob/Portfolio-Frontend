@@ -4,7 +4,7 @@ export const data = () => {
             title: "Financial Record RESTful API",
             subtitle: "Java / Springboot / AWS / Terraform",
             description:
-        "This backend RESTful API I'm currently building is for personal use and learning purposes. In this project, I am building a Spring Boot REST API that will store complex financial data in a backend DynamoDB database in AWS. Click to find out more.",
+          "This backend RESTful API I'm currently building is for personal use and learning purposes. In this project, I am building a Spring Boot REST API that will store complex financial data in a backend DynamoDB database in AWS. Click to find out more.",
             image: "./aws.png",
             link: "https://github.com/fidaa-mahboob/Financial-Record-API-MVP",
         },
@@ -12,17 +12,17 @@ export const data = () => {
             title: "Weather Sense Full Stack App",
             subtitle: "ReactJS / Javascript / NodeJS / GraphQL",
             description:
-        "A weather app that will give three hourly forecast and current weather for a given or present location. The backend uses a proxy server to serve the frontend React app weather data from OpenWeather API. Click to find out more.",
+          "A weather app that will give three hourly forecast and current weather for a given or present location. The backend uses a proxy server to serve the frontend React app weather data from OpenWeather API. Click to find out more.",
             image: "./weathersense.png",
             link: "https://github.com/fidaa-mahboob/weathersense",
         },
         {
-            title: "Email Server Backend",
-            subtitle: "Python / Flask",
+            title: "Note Encryption API v1",
+            subtitle: "Java / Spring Boot / MySQL",
             description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-            image: "./weathersense.png",
-            link: "https://reactbootcamp.com",
+          "This app encrypts notes added to the database and only someone who knows the encryption key can decrypt notes from the MySQL database. The project makes use of the caesar cypher algorithm to encrypt notes.",
+            image: "./NoteEncryptorSnapshot.png",
+            link: "https://github.com/fidaa-mahboob/Note-Encryptor-API-v1",
         },
     ];
 };
