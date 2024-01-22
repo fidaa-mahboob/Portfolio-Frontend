@@ -15,13 +15,13 @@ export const data = () => {
           "A weather app that will give three hourly forecast and current weather for a given or present location. The backend uses a proxy server to serve the frontend React app weather data from OpenWeather API. Click to find out more.",
             image: "./weathersense.png",
             link: "https://github.com/fidaa-mahboob/weathersense",
-        },  
+        },
         {
             title: "Note Encryption API v1",
             subtitle: "Java / Spring Boot / MySQL",
             description:
           "This app encrypts notes added to the database and only someone who knows the encryption key can decrypt notes from the MySQL database. The project makes use of the caesar cypher algorithm to encrypt notes.",
-            image: "./weathersense.png",
+            image: "./NoteEncryptorSnapshot.png",
             link: "https://github.com/fidaa-mahboob/Note-Encryptor-API-v1",
         },
     ];
