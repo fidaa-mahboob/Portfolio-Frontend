@@ -23,7 +23,11 @@ const About = () => {
                         {" "}
                         <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold text-black sm:text-md">
                 My name is Fidaa Mahboob.{" "}
-                            {"I'm a full stack software engineer."}
+                        </h1>
+                        <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold text-black sm:text-md">
+                            {
+                                "I'm a full stack software engineer with DevOps engineering skills."
+                            }
                         </h1>
                     </StyledTitleText>
 
